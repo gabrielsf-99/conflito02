@@ -4,7 +4,7 @@ function greet(name) {
 }
 
 function farewell(name) {
-    return `Bye, ${name}!`; 
+    return `Goodbye, ${name}!`; // 
 }
 
-module.exports = { greet, farewell };
+module.exports = { farewell }; // 
